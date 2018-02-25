@@ -1,0 +1,29 @@
+{
+  "name": "Commit-Message-Change-Log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/china-Zzzz/Commit-Message-Change-Log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/china-Zzzz/Commit-Message-Change-Log/issues"
+  },
+  "homepage": "https://github.com/china-Zzzz/Commit-Message-Change-Log#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
